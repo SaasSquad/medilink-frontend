@@ -1,10 +1,26 @@
-import AuthPage from "./pages/AuthPage";
+// import { getTokens } from "next-firebase-auth-edge";
+// import { cookies } from "next/headers";
+// import { notFound } from "next/navigation";
+// import { clientConfig, serverConfig } from "../../config";
+import HomePage from "./HomePage";
 
-export default function Home() {
-  return (
-   <div>
-    {/* this is the place of entry after authentication */}
-    <AuthPage />
-    </div>
-  );
+export default async function Home() {
+
+  // Making it more secure, not working now, going to try it later
+
+  // const tokens = await getTokens(cookies(), {
+  //   apiKey: clientConfig.apiKey,
+  //   cookieName: serverConfig.cookieName,
+  //   cookieSignatureKeys: serverConfig.cookieSignatureKeys,
+  //   serviceAccount: serverConfig.serviceAccount,
+  // });
+
+  // if (!tokens) {
+  //   notFound();
+  // }
+
+
+  // return <HomePage email={tokens?.decodedToken.email} />;
+
+  return <HomePage />;
 }
