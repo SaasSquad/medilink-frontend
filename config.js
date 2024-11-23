@@ -1,6 +1,6 @@
 export const clientConfig = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTHDOMAIN,
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_ADOMAIN,
     projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECTID,
     storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGEBUCKET,
     messagingSenderId: process.env.NEXT_PUBLIC_FIREBASEMESSAGINGSENDERID,
