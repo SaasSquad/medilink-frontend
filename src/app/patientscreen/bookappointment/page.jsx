@@ -1,13 +1,11 @@
+import Profileheader from '@/app/components/profileheader'
 import React from 'react'
 
 const Bookappointment = () => {
   return (
 <>
 <div className='h-[100vh] w-[100vw]'>
-<div className='flex flex-row h-20 bg-[#0059FD] items-center px-8'>
-        <h1 className='text-white text-2xl'>Hello John</h1>
-        <div className=' h-14 w-14 bg-slate-400 ml-auto rounded-full'></div>
-      </div>
+ <Profileheader />
       <div className=' px-11 my-8'>
         <h1 className='text-2xl font-bold text-[#0059FD] my-10'>Book an apponitment</h1>
         <div className='flex flex-col'>

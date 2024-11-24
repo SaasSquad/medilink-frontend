@@ -15,10 +15,11 @@ const PatientScreen = () => {
           <Link href="patientscreen/bookappointment"><div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4 my-8'>
           <div className='h-10 w-10 bg-white'></div><button className='text-white text-xl ml-8'>Book an appointment</button>
           </div></Link>
-          
+          <Link href="patientscreen/selfdiagnosis">
           <div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4'>
           <div className='h-10 w-10 bg-white'></div><button className='text-white text-xl ml-8'>Run self-diagnosis</button>
           </div>
+          </Link>
           <div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4 mt-8'>
           <div className='h-10 w-10 bg-white'></div><button className='text-white text-xl ml-8'>Register a hospital</button>
           </div>
