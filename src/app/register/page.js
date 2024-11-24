@@ -7,7 +7,7 @@ import HealthPro from "./health_pro";
 import Hospital from "./hospital";
 
 export default function Register() {
-    const [accountType, setAccountType] = useState("");
+    const [accountType, setAccountType] = useState("hospital");
     const router = useRouter();
 
     const handleAccountTypeChange = (value) => {
