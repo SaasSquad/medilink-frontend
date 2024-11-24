@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 const PatientScreen = () => {
   return (
@@ -11,9 +12,10 @@ const PatientScreen = () => {
       <div className='px-8 mt-14'>
         <h1 className='text-3xl text-[#0059FD] font-bold'>What would you like to do today?</h1>
         <div className='mt-10'>
-          <div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4 my-8'>
+          <Link href="patientscreen/bookappointment"><div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4 my-8'>
           <div className='h-10 w-10 bg-white'></div><button className='text-white text-xl ml-8'>Book an appointment</button>
-          </div>
+          </div></Link>
+          
           <div className='bg-[#0059FD] rounded-2xl flex h-24 items-center px-4'>
           <div className='h-10 w-10 bg-white'></div><button className='text-white text-xl ml-8'>Run self-diagnosis</button>
           </div>
