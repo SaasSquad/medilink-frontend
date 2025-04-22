@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import { useState, useEffect } from "react";
-import Onboarding from "./onboarding/page";
+import Onboarding from "./(auth)/page";
 
 export default function HomePage() {
   const router = useRouter();

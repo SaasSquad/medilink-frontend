@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { auth } from "../../../firebase";
+import { auth } from "../../../../firebase";
 import { useRouter } from "next/navigation";
 
 export default function Hospital() {
